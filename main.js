@@ -168,7 +168,7 @@ function verificaResposta(respostaSelecionada) {
                 resultadoElemento.className = "concluido";
                  
                 const audioFinal = new Audio (`audios/abbertura completa.mp3`);
-                audioFinal.volume = 0.25;
+                audioFinal.volume = 0.15;
                 audioFinal.play();
             }
             setTimeout(derrotado, 1700)
@@ -199,7 +199,7 @@ function verificaResposta(respostaSelecionada) {
             const audioVencedor = new Audio ("audios/silvio-santos-parabens-voce-acaba-de-ganhar-1-milhao-de-reais.mp3")
             audioVencedor.play();
             const audioFinal = new Audio (`audios/abbertura completa.mp3`)
-            audioFinal.volume = 0.20;
+            audioFinal.volume = 0.15;
             audioFinal.play();
         }
         setTimeout(vencedor, 3000)
